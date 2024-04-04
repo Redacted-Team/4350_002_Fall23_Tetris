@@ -1,9 +1,8 @@
 # GameMicroService
 ### A Team Bobby Project
 ### Members:
-> Isaac Camacho, Richard Cashion, Dylan Cowell, Thomas Foreman,
-> Dionte Jones, Matt Justis, Jacob Klucher, Dylan Lynch, 
-> Caleb Rains, Chris Seals, Kyle Wittman
+> Kurt Brewer, Josh Rucevice, Charlie Shahan,
+> Ethan Webb, Ethan Hensley, Patrick Vergason, Bryson Brandon
 #### CSCI 4350
 #### Fall 2023, East Tennessee State University
 
