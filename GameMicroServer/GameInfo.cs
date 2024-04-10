@@ -1,4 +1,4 @@
-﻿namespace Micro
+﻿namespace Tetris
 {
     public class GameInfo
     {

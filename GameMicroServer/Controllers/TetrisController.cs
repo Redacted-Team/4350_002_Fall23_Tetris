@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Caching.Distributed;
 using System.Text.Json;
 
-namespace Micro
+namespace Tetris
 {
     [ApiController]
     [Route("[controller]")]
-    public class MicroController : ControllerBase
+    public class TetrisController : ControllerBase
     {
         private static readonly List<GameInfo> TheInfo = new List<GameInfo>
         {
@@ -49,9 +49,9 @@ namespace Micro
 
         };
 
-        private readonly ILogger<MicroController> _logger;
+        private readonly ILogger<TetrisController> _logger;
 
-        public MicroController(ILogger<MicroController> logger)
+        public TetrisController(ILogger<TetrisController> logger)
         {
             _logger = logger;
         }
