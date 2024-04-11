@@ -1,5 +1,5 @@
 # GameMicroService
-### A Team Bobby Project
+### A Team [Redacted] Project
 ### Members:
 > Kurt Brewer, Josh Rucevice, Charlie Shahan,
 > Ethan Webb, Ethan Hensley, Patrick Vergason, Bryson Brandon
