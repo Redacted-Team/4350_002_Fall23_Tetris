@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["GameMicroServer/Tetris.csproj", "TetrisMicroService/"]
+COPY ["Tetris/Tetris.csproj", "TetrisMicroService/"]
 RUN dotnet restore "TetrisMicroService/Tetris.csproj"
 COPY . .
-WORKDIR "/src/GameMicroServer"
+WORKDIR "/src/Tetris"
 RUN dotnet build "Tetris.csproj" -c Release -o /app/build
 
 FROM build AS publish
