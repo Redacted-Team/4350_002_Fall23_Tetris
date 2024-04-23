@@ -11,7 +11,7 @@ This is a microservice that returns game info in JSON format to the [BOBBY Proje
 
 ### Project Structure:
 * The application handles HTTP calls in the Tetris.cs file in the /Tetris/Controllers directory.
-* It only handles an HTTP Get call to the path /Micro. So if the application was running locally, you would call [http://localhost/Tetris](http://localhost/Tetris).
+* It only handles an HTTP Get call to the path /Tetris. So if the application was running locally, you would call [http://localhost/Tetris](http://localhost/Tetris).
 * This application is deployed alongside the BucStop project with docker compose, see [BOBBY Project](https://github.com/chrisseals98/BOBBY) for more details.
 
 ### Help
