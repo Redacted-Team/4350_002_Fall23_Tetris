@@ -7,7 +7,7 @@
 #### Fall 2023, East Tennessee State University
 
 ### Overview:
-This is a microservice that returns Tetris to Bucstop
+This is a microservice that returns Tetris game info to Bucstop
 
 ### Project Structure:
 * The application handles HTTP calls in the Tetris.cs file in the /Tetris/Controllers directory.
